@@ -6,9 +6,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "HelloWorld",
+      "name": "Wisielec",
       "request": "launch",
-      "mainClass": "HelloWorld",
+      "mainClass": "Main",
       "projectName": "wisielec_5086328",
       "vmArgs": "--module-path \"C:/Users/The Bois/Desktop/projekt/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml,javafx.web"
     },

@@ -1,18 +1,24 @@
-## Getting Started
+## 2. Gra w Wisielca
+Wybralem gre w wisielca.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- [2. Gra w Wisielca](#2-gra-w-wisielca)
+- [Opis](#opis)
+- [Funkcjonalnosci:](#funkcjonalnosci-)
+- [instrukcja obslugi:](#instrukcja-obslugi-)
 
-## Folder Structure
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Opis
+Gra z zaimplementowanym interfejsem graficznym z javafx. Zgadnij litery z losowego slowa.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Funkcjonalnosci:
+-bledny strzal skutkuje zmniejszeniem sie dostepnych szans i zmienieniem obrazka
+-mozliwosc ponownej gry
+-wielokrotne wpisanie tej samej litery nie zmienia stanu gry
+-poprawny strzal odslania litery w slowie
+-nie mozna dalej zgadywac po wygranej ani restartowac gry przed jej zakonczeniem
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## instrukcja obslugi:
+-Zeby zagrac w gre wystarczy wejsc w kod zrodlowy Main.java i kliknac Run
+-Do poprawnego dzialania programu nalezy przerzucic pliki z \javafx-sdk-22.0.1\lib do "referened libraries" w vscode
